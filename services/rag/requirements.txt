@@ -1,0 +1,8 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+pymupdf==1.24.10
+fastembed==0.3.6
+qdrant-client==1.11.3
+rank-bm25==0.2.2
+httpx==0.27.2
+pymongo==4.8.0

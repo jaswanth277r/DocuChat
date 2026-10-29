@@ -1,26 +1,27 @@
-# Environment variables & secrets
+# Local configuration and secrets
 .env
-*.env
-!.env.example
+.env.local
 
 # Python
+.venv
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-.venv/
+.pytest_cache/
+.uv-cache/
+.pip-cache/
+.pycache/
 
-# Node / Frontend
-node_modules/
-dist/
-dist-ssr/
-*.local
+# Node
+frontend/node_modules
+frontend/dist/
+.deps/
+npm-debug.log*
 
-# Logs and temporary files
-*.log
-.temp/
-tmp/
+# Runtime data (uploads, page renders, model cache)
+data/
+backend/data/
+evaluation/fixtures/*.pdf
+
+# OS
 .DS_Store
+Thumbs.db
